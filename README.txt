@@ -7,11 +7,10 @@ Cara menjalankan:
 Halaman: index, tentang (profil), jurusan, informasi, kontak.
 
 Palet warna (sesuaikan dengan logo asli bila perlu):
-  --navy-700  #0b2e6b  biru utama
-  --navy-900  #071a3d  biru tua (footer/hero)
-  --blue-500  #1e5bc6  biru terang (link/aksen)
-  --gold-500  #f2b705  kuning emas (tombol/highlight)
-  --blue-50   #f4f7fd  latar lembut
+  --primary       #0b2e6b  biru utama
+  --primary-dark  #071a3d  biru tua (hover tombol)
+  --accent        #f2b705  kuning (cadangan, jarang dipakai)
+  --soft          #f7f8fa  latar abu lembut
 
 Memasang logo asli:
 1. Simpan logo sebagai img/logo.png.
@@ -26,3 +25,6 @@ Catatan: tanpa JavaScript/PHP/database. Formulir kontak hanya tampilan.
 
 
 Pembaruan: gambar gapura sekolah digunakan sebagai latar hero, foto kepala sekolah ditampilkan pada bagian Tentang Sekolah, dan alamat sekolah mengarah langsung ke Google Maps. Banner promosi bawah halaman dihapus. Website tetap berupa HTML/CSS statis dan siap diunggah ke GitHub Pages.
+
+
+Pembaruan tampilan sederhana: topbar, kotak statistik, bagian Keunggulan gelap, ikon emoji, gradasi, bayangan, dan efek hover dihapus. Tata letak kini datar dan bersih (header putih, hero gapura, kartu dengan garis tipis, footer abu terang). Cadangan versi sebelumnya ada di folder smkn1kertosono_backup (bila disertakan).
